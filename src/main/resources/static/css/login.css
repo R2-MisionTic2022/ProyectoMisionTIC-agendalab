@@ -1,0 +1,30 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background: white;
+  min-height: 100%;
+}
+
+.contenedor {
+  position: relative;
+}
+
+.centrar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centrar2 {
+  width: 120%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}

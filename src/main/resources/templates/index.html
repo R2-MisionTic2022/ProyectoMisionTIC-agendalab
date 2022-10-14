@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org/">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>AgendaLab</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons --> 
+    <link href="img/icon.ico" rel="icon">
+
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ======= BARRA SUPERIOR ======= -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+        <div class="container d-flex justify-content-between">
+
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope"></i> <a href="mailto:agendalab53@gmail.com">agendalab53@gmail.com</a>
+                <i class="bi bi-phone"></i> 606 333 33 33
+            </div>
+            <div class="d-none d-lg-flex social-links align-items-center">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- ======= FIN BARRA SUPERIOR ======= -->
+
+    <!-- ======= Header ======= 8AC53F color verde, color azul #3F559E -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+            <a href="index.html" class="logo me-auto"><img src="img/logo.jpg" alt="" class="img-fluid"></a>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+                    <li><a class="nav-link scrollto" href="/servicios">Servicios</a></li>
+                    <li><a class="nav-link scrollto" href="/contactenos">Contáctenos</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+            <a href="/login" class="appointment-btn scrollto"><span
+                    class="d-none d-md-inline">Iniciar</span>Sesión</a>
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section =======  https://mylogo.tailorbrands.com/share/7787700487-->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <h2 style="color:rgb(252, 252, 252)">Programa tus citas de Laboratorio<br>
+                desde cualquier lugar del mundo!</h2>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="content">
+                            <h3>Por qué Escoger AgendaLab?</h3>
+                            <p>
+                                Somos la única plataforma que te permite conectar con la agenda disponible del
+                                laboratorio para la programación de los servicios acorde a tu disponibilidad y sin
+                                largas esperas al teléfono
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 d-flex align-items-stretch">
+                        <div class="icon-boxes d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bx-receipt"></i>
+                                        <h4>Autogestión</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bx-cube-alt"></i>
+                                        <h4>Ágilidad</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 mt-xl-0">
+                                        <i class="bx bx-images"></i>
+                                        <h4>Eficiencia</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End .content-->
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Why Us Section -->
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div
+                        class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                        <a href="https://www.youtube.com/embed/vbF5kfWoo-c" class="glightbox play-btn mb-4"></a>
+                    </div>
+
+                    <div
+                        class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                        <h3>Quienes somos</h3>
+                        <p>Somos un equipo comprometido con la salud de nuestros pacientes, procesando análisis con la
+                            mejor tecnología para cubrir las necesidades diagnosticas de nuestros pacientes</p>
+
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-pulse"></i></div>
+                            <h4 class="title"><br><a>Recuerda que tienes derecho a:</a></h4>
+                            <p class="description">
+                                <br>
+                                <li>No ser sometido a tratos crueles o inhumanos que afecten tu dignidad, ni a ser
+                                    obligad a soportar sufrimiento evitable</li>
+                                <li>A recibir por voluntad propia un tratamiento de salud</li>
+                                <li>A recibir prestaciones de salud en las codiciones y términos cosagrados en la ley
+                                </li>
+                                <li>A recibir trato digno, respetando tus creencias y constumbres, así como las
+                                    opiniones personales que tengan sobre los procedimientos</li>
+                                <li>A recibir servicios de salud en condiciones de higiene, seguridad y respeto a tu
+                                    intimidad</li>
+                            </p>
+                        </div>
+
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-book-open"></i></div>
+                            <h4 class="title"><br><a>Y tus deberes como usuario son:</a></h4>
+                            <p class="description">
+                                <br>
+                                <li>Cumplir con las normas del sistema de salud.</li>
+                                <li>Cumplir con las normas y reglamentos de la institución.</li>
+                                <li>Cumplir con las recomendaciones e indicaciones dadas por el personal de la
+                                    institución para acceder a los servicios.</li>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <!-- ======= Counts Section PONER ESTA SECCION ESTA CHEVERE======= -->
+        <section id="counts" class="counts">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-box">
+                            <i class="fas fa-user-md"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Profesionales</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                        <div class="count-box">
+                            <i class="fas fa-flask"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Servicios</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="far fa-hospital"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Secciones</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="fas fa-hospital-user"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="420" data-purecounter-duration="3"
+                                class="purecounter"></span>
+                            <p>Pacientes</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Counts Section -->
+
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <div th:insert="layout/footer :: footer">...</div>
+
+    <!-- Vendor JS Files -->
+    <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

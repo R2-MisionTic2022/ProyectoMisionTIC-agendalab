@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión</title>
+
+  <!-- Favicons --> 
+  <link href="img/icon.ico" rel="icon">
+
+
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+</head>
+
+<body>
+  <div class="container h-75 bg-primary mt-5 rounded shadow">
+    <div class="row aling-items-stretch h-100">
+
+    <div class="col d-none d-lg-block bg-white col-md-5 col-lg-5 col-xl-6 rounded contenedor">
+        <img class="centrar" src="img/laboratorio.jpg">
+    </div>
+
+    <div class="col bg-white p-1 rounded-end ">
+
+      <div class="text-end">
+        <span> <a href="index.html">Regresar</a></span>
+      </div>
+
+      <div class="section-title">
+        <h2 class="fw-bold text-center py-5">Bienvenido a Agenda Lab</h2>
+      </div>
+     
+      <form action="#" class="p-5">
+        <div class="mb-4">
+          <input type="text" class="form-control" id="username" name="usuario" placeholder="Usuario" required>
+        </div>
+
+        <div class="mb-4">
+          <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+        </div>
+        
+        <div class="mb-5 form-check">
+          <input type="checkbox" name="connected" class="form-check-input">
+          <label for="connected" class="form-check-label">Mantenerme conectado</label>
+        </div>
+
+        <div class="container w-75 d-grid mb-5">
+          <button class="btn btn-primary" type="button" onclick="login()" >Iniciar sesión</button>
+        </div>
+
+        <div id="errorBox"></div> 
+
+        <div class="container py-2">
+          <div class="mt-auto text-center text-md-start">
+            <div class="d-flex justify-content-center">
+              <span>¿No tienes cuenta? <a href="/registro">Registrate</a></span><br>
+            </div>
+            <div class="d-flex justify-content-center">
+              <span>Usuario <a href="/usuario">Usuario</a></span><br>
+            </div>
+            </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+    
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container py-5 mt-auto text-center text-md-start">
+      <div class="copyright d-flex justify-content-center">
+        <p>&copy; Copyright <b><span>AgendaLAB</span></b>. All Rights Reserved</p>
+      </div>
+      <div class="credits d-flex justify-content-center">
+        <p>Desarrollado por: Equipo 5|Grupo 3</p>
+      </div>
+    </div>
+
+  </footer>
+  
+  <script src="/js/login.js"></script>
+</body>
+
+</html>
